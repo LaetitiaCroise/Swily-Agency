@@ -115,4 +115,32 @@ main{
 .button-agence:hover{
     border-bottom: 3px solid var(--black);
 }
+.image-section-box{
+    width: 50%;
+}
+.section-expertise{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.title-h2{
+    font-size: 30px;
+    font-family: var(--font);
+    font-weight: 400;
+    margin: 0 20px;
+}
+.title-expertises{
+    text-decoration: none;
+    color: var(--black);
+}
+.p-style-expertises{
+    font-size: 20px;
+}
+.section-h2-p-style-expertises{
+    display: flex;
+    flex-direction: column;
+    
+}
+
 
