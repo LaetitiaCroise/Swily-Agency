@@ -2,9 +2,9 @@
 
 
 :root {
-    --black: #000000
-    --white: #FFFFFF
-    --grey: #F2F2F2;
+    --black: #000000;
+    --white: #FFFFFF;
+    --grey: #000000;
     --font: "Kanit";
 }
 
@@ -47,7 +47,7 @@ body{
 .listpuce{
     list-style: none;
     display: flex;
-    margin: 15px;
+    margin: 25px 5px ;
 }
 
 .lien{
@@ -76,5 +76,11 @@ body{
     padding: 0 10px;
     color: var(--black);
     font-size: 17px;
+}
+
+.lien:hover{
+    border: 3px solid var(--grey);
+    border-radius: 15px;
+    padding: 0;
 }
 
