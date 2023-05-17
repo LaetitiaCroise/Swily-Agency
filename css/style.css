@@ -57,3 +57,15 @@ main{
     text-decoration: none;
 }
 
+.navbar .listpuce .lien{
+    padding: 0 20px;
+    color: var(--black);
+    font-family: var(--font);
+    font-weight: 500;
+}
+.icon{
+    padding: 0 10px;
+    color: ;
+    font-size: 17px;
+}
+
