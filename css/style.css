@@ -1,0 +1,30 @@
+body{
+    background-image: url("../img/Wild-flower-pattern-Floral-seamless-wallpaper-with-wildflowers-Vintage-fabric-vector-background-Illustration-of-seamless-pattern-wild-flower-summer-Stock-Vector-Image-Art-Alamy.png");
+}
+main{
+    background-color: white;
+    width:1024px;
+    height:1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.image-logo{
+    width: 375px;
+}
+.listpuce{
+    list-style: none;
+    display: flex;
+}
