@@ -13,36 +13,42 @@
 }
 
 body{
-    background-image: url("../img/Wild-flower-pattern-Floral-seamless-wallpaper-with-wildflowers-Vintage-fabric-vector-background-Illustration-of-seamless-pattern-wild-flower-summer-Stock-Vector-Image-Art-Alamy.png");
+    font-size: 14px;
+    background-color: #ffff;
+    font-family: var(--font);
 }
 main{
+   
+}
+.header-banner{
     background-color: white;
-    width:1024px;
-    height:1024px;
+    max-width: 1340px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
-/* .header-banner{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-} */
 .title-h1{
     font-family:Rubik, Helvetica, sans-serif;
-    font-size: 40px;
+    font-size: 50px;
 }
 .navbar{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: space-between; 
+    padding: 0;
+    
 }
 
 .image-logo{
     width: 375px;
 }
+
 .listpuce{
     list-style: none;
     display: flex;
 }
+
+.lien{
+    text-decoration: none;
+}
+
