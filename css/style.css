@@ -38,9 +38,14 @@ main{
     padding: 0;
     
 }
+.container{
+    display: flex;
+    justify-content: flex-end;
+    
+}
 
 .image-logo{
-    width: 270px;
+    width: 250px;
 }
 
 .listpuce{
