@@ -17,7 +17,13 @@ body{
     background-color: #ffff;
     font-family: var(--font);
 }
-
+main{
+    background-color: white;
+    max-width: 1340px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
 .header-banner{
     background-color: white;
     max-width: 1340px;
@@ -59,6 +65,7 @@ body{
     color: var(--black);
     font-family: var(--font);
     font-weight: 300;
+    cursor: pointer;
 }
 .list-nav{
     display: flex;
@@ -71,6 +78,7 @@ body{
     color: var(--black);
     font-weight: 500;
     font-family: var(--font);
+    cursor: pointer;
 }
 .icon{
     padding: 0 10px;
@@ -82,5 +90,15 @@ body{
     border: 3px solid var(--grey);
     border-radius: 15px;
     padding: 0;
+}
+.title-h1{
+    font-family: var(--font);
+    color: var(--black);
+    font-weight: 300;
+    font-size: 150px;
+    font-weight: 100;
+    font-size: 75px;
+    
+
 }
 
