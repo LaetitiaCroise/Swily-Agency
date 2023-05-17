@@ -94,11 +94,14 @@ main{
 .title-h1{
     font-family: var(--font);
     color: var(--black);
-    font-weight: 300;
+    font-weight: 400;
     font-size: 150px;
-    font-weight: 100;
     font-size: 75px;
-    
-
+}
+.p-style{
+    font-weight: 200;
+    font-size: 20px;
+    font-family: var(--font);
+    margin: 30px 0 0 50px;
 }
 
