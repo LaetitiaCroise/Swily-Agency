@@ -88,6 +88,11 @@ main{
     color: var(--black);
     font-size: 17px;
 }
+/* .blockquote-1{
+    font-size: 20px;
+    font-family: var(--font);
+    font-weight: 500;
+} */
 
 .lien:hover{
     border: 2px solid var(--grey);
