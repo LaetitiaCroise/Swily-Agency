@@ -124,7 +124,7 @@ main{
 .image-section-box{
     width: 650px;
     height: auto;
-    border-radius: 30px;
+    /* border-radius: 30px; */
 }
 .section-expertise{
     display: flex;
