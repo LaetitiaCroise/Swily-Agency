@@ -12,90 +12,97 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     font-size: 14px;
     background-color: #ffff;
     font-family: var(--font);
 }
-main{
+
+main {
     background-color: white;
     max-width: 1340px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
-.header-banner{
+
+.header-banner {
     background-color: white;
     max-width: 1340px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     position: sticky;
-   top: 0;
-   left: 0;
+    top: 0;
+    left: 0;
 }
 
-.navbar{
+.navbar {
     display: flex;
     align-items: flex-end;
-    justify-content: center; 
+    justify-content: center;
     padding: 0;
     flex-direction: column;
-    
+
 }
-.container{
+
+.container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.image-logo{
+.image-logo {
     width: 250px;
 }
 
-.listpuce{
+.listpuce {
     list-style: none;
     display: flex;
-    margin: 25px 5px ;
+    margin: 25px 5px;
 }
 
-.lien{
+.lien {
     text-decoration: none;
 }
 
-.navbar .listpuce .lien{
+.navbar .listpuce .lien {
     padding: 0 20px;
     color: var(--black);
     font-family: var(--font);
     font-weight: 300;
     cursor: pointer;
 }
-.list-nav{
+
+.list-nav {
     display: flex;
     justify-content: flex-end;
     list-style: none;
 
 }
-.nav .list-nav .lien{
+
+.nav .list-nav .lien {
     padding: 0 20px;
     color: var(--black);
     font-weight: 500;
     font-family: var(--font);
     cursor: pointer;
 }
-.icon{
+
+.icon {
     padding: 0 10px;
     color: var(--black);
     font-size: 17px;
 }
 
 
-.lien:hover{
+.lien:hover {
     border: 2px solid var(--grey);
     border-radius: 15px;
     padding: 0;
 }
-.title-h1{
+
+.title-h1 {
     font-family: var(--font);
     color: var(--black);
     font-weight: 400;
@@ -103,78 +110,89 @@ main{
     font-size: 75px;
 }
 
-.p-style{
+.p-style {
     font-weight: 200;
     font-size: 20px;
     font-family: var(--font);
     margin: 40px 0 25px 40px;
     text-align: justify;
 }
-.button-agence{
+
+.button-agence {
     text-decoration: none;
     font-family: var(--font);
     color: var(--black);
 }
-.button-agence:hover{
+
+.button-agence:hover {
     border-bottom: 3px solid var(--black);
 }
-.image-section-box{
+
+.image-section-box {
     width: 650px;
     height: auto;
-    
+
 }
-.section-expertise{
+
+.section-expertise {
     display: flex;
     justify-content: space-between;
     padding: 35px 0;
 }
 
-.title-h2{
+.title-h2 {
     font-size: 30px;
     font-family: var(--font);
     font-weight: 400;
     margin: 0 20px;
 }
-.title-expertises{
+
+.title-expertises {
     text-decoration: none;
     color: var(--black);
 }
-.p-style-expertises{
+
+.p-style-expertises {
     font-size: 20px;
     padding: 20px;
 }
-.section-h2-p-style-expertises{
+
+.section-h2-p-style-expertises {
     display: flex;
     flex-direction: column;
     font-family: var(--font);
     font-weight: 200;
     text-align: justify;
     padding: 20px;
-    justify-content:center;
-}
-.button-expertises{
-text-decoration: none;
-background: radial-gradient(circle, rgba(245,153,193,1) 0%, rgba(162,197,237,1) 100%);
-padding: 15px;
-width: 25%;
-text-align: center;
-border-radius: 25px;
-color: #FFFFFF;
-font-weight: 500;
-font-family: var(--font);
-margin-left: 20px;
-margin-top: 20px;
+    justify-content: center;
 }
 
-.button-expertises:hover{
+.button-expertises {
+    text-decoration: none;
+    background: radial-gradient(circle, rgba(245, 153, 193, 1) 0%, rgba(162, 197, 237, 1) 100%);
+    padding: 15px;
+    width: 25%;
+    text-align: center;
+    border-radius: 25px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-family: var(--font);
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.button-expertises:hover {
     color: var(--black);
     transition: all 1s ease;
 }
 
-.article-box-secteurs{
-    background-color: var(--black);
+.article-box-secteurs {
+    background: var(--black);
+
+
 }
-.section-h2-secteurs{
+
+.section-h2-secteurs {
     color: var(--white);
     font-family: var(--font);
     font-size: 30px;
@@ -182,61 +200,92 @@ margin-top: 20px;
     text-align: center;
     padding: 20px 0;
 }
-.p-style-secteurs{
+
+.p-style-secteurs {
     color: var(--white);
     font-family: var(--font);
     text-align: justify;
     padding: 20px 50px;
 }
 
-.section-box-secteurs{
+.section-box-secteurs {
     display: flex;
     flex-direction: column;
     align-items: center;
-   
+
 }
 
-.button-secteurs{
+.button-secteurs {
     border: 3px solid var(--white);
     border-radius: 25px;
-   display: flex;
-   justify-content: center;
-   height: 50px;
-   align-items: center;
-   width: 300px;
-   margin: 20px 0 ;
-   text-decoration: none;
-   font-family: var(--font);
-   color: var(--white);
-   font-size: 17px;
-   
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    width: 300px;
+    margin: 20px 0;
+    text-decoration: none;
+    font-family: var(--font);
+    color: var(--white);
+    font-size: 17px;
+
+
 }
 
-.img-under-background{
+.img-under-background {
     width: 50%;
-    padding-top: 35px; 
-     
- 
+    padding-top: 35px;
+
+
 }
 
-.button-agency{
- width: 30%;
-text-decoration: none;
-background: radial-gradient(circle, rgba(245,153,193,1) 0%, rgba(162,197,237,1) 100%);
-padding: 15px;
-text-align: center;
-border-radius: 25px;
-color: #FFFFFF;
-font-weight: 500;
-font-family: var(--font);
-margin-left: 20px;
-margin-top: 20px;
+.button-agency {
+    width: 30%;
+    text-decoration: none;
+    background: radial-gradient(circle, rgba(245, 153, 193, 1) 0%, rgba(162, 197, 237, 1) 100%);
+    padding: 15px;
+    text-align: center;
+    border-radius: 25px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-family: var(--font);
+    margin-left: 20px;
+    margin-top: 20px;
 }
-.button-agency:hover{
+
+.button-agency:hover {
     color: var(--black);
     transition: all 1s ease;
 }
-.projet-box{
-    background: rgba(162,197,237,1);
+
+.section-projet-box {
+
+    height: 31rem;
+    width: 91rem;
+    border-radius: 1rem 1.8rem 4rem 3rem
+}
+
+
+.section-expertise-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0;
+}
+
+.img-logo-partenaire {
+    width: 20%;
+
+}
+
+.logos-partenaires {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title-h3 {
+    font-size: 30px;
+    font-family: var(--font);
+    font-weight: 400;
+    text-align: center;
 
 }
