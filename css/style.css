@@ -121,7 +121,7 @@ main{
 .image-section-box{
     width: 650px;
     height: auto;
-    /* border-radius: 30px; */
+    
 }
 .section-expertise{
     display: flex;
@@ -213,9 +213,30 @@ margin-top: 20px;
 }
 
 .img-under-background{
-    width: 100%;
-    padding-top: 35px;
-    
+    width: 50%;
+    padding-top: 35px; 
+     
  
 }
 
+.button-agency{
+ width: 30%;
+text-decoration: none;
+background: radial-gradient(circle, rgba(245,153,193,1) 0%, rgba(162,197,237,1) 100%);
+padding: 15px;
+text-align: center;
+border-radius: 25px;
+color: #FFFFFF;
+font-weight: 500;
+font-family: var(--font);
+margin-left: 20px;
+margin-top: 20px;
+}
+.button-agency:hover{
+    color: var(--black);
+    transition: all 1s ease;
+}
+.projet-box{
+    background: rgba(162,197,237,1);
+
+}
