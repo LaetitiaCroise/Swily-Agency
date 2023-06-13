@@ -291,21 +291,48 @@ main {
     text-align: center;
 
 }
-.footer-list {
-    background: rgb(158, 193, 233);
-    min-height: 530px;
+.footer-div {
+    background: var(--black);
 
 }
 .map{
     font-family: var(--font);
     color: var(--white);
     font-size: 20px;
-    padding: 15px;
+   
+    
 }
 .maps{
     display: flex;
     flex-direction: column;
-    width: 310px;
-    height: 320px;
+    width: 300px;
+    height: 325px;
+    padding-top: 50px;
+
 }
-  
+.container-footer-bloc {
+    padding: 25px;
+    background-color: var(--black);
+    
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    color: var(--black);
+}
+
+.page-footer {
+    padding: 0 10px 0 0;
+}
+.lien-footer{
+    color: var(--white);
+}
+.icon-1{
+    color: var(--white);
+}
+.title-h4{
+    color: var(--white);
+    font-family: var(--font);
+
+}
