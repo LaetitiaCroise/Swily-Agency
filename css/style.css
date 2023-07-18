@@ -303,8 +303,7 @@ main {
     
 }
 .maps{
-    display: flex;
-    flex-direction: column;
+
     width: 250px;
     height: 230px;
     /* padding-top: 50px; */
@@ -313,6 +312,9 @@ main {
 .container-footer-bloc {
     padding: 25px;
     background-color: var(--black);
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
     
 }
 
@@ -320,7 +322,10 @@ main {
     display: flex;
     flex-direction: row;
     color: var(--black);
+    justify-content: space-evenly;
+
 }
+
 
 .page-footer {
     padding: 0 10px 0 0;
