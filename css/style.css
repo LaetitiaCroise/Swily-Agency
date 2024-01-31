@@ -129,6 +129,7 @@ main {
     text-decoration: none;
     font-family: var(--font);
     color: var(--black);
+   
 }
 
 .button-agence:hover {
@@ -186,11 +187,13 @@ main {
     font-family: var(--font);
     margin-left: 20px;
     margin-top: 20px;
+    
 }
 
 .button-expertises:hover {
     color: var(--black);
     transition: all 1s ease;
+    box-shadow: 10px 10px 10px rgba(red); 
 }
 
 .article-box-secteurs {
@@ -260,8 +263,8 @@ main {
     font-family: var(--font);
     margin-left: 20px;
     margin-top: 20px;
-}
 
+}
 .button-agency:hover {
     color: var(--black);
     transition: all 1s ease;
@@ -367,7 +370,7 @@ main {
     margin: 15px 0;
     font-family: var(--font);
     text-decoration: none;
-    padding-left: 262px;
+    padding-left: 215px;
     
 }
 @media screen and (max-width: 992px) {
