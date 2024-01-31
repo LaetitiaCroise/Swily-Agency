@@ -191,9 +191,8 @@ main {
 }
 
 .button-expertises:hover {
-    color: var(--black);
     transition: all 1s ease;
-    box-shadow: 10px 10px 10px rgba(red); 
+    box-shadow: 10px 10px 10px rgb(172, 170, 170); 
 }
 
 .article-box-secteurs {
@@ -234,7 +233,7 @@ main {
     justify-content: center;
     height: 50px;
     align-items: center;
-    width: 300px;
+    width: 20%;
     margin: 20px 0;
     text-decoration: none;
     font-family: var(--font);
@@ -245,14 +244,14 @@ main {
 }
 
 .img-under-background {
-    width: 50%;
+    width: 400px;
     padding-top: 35px;
 
 
 }
 
 .button-agency {
-    width: 30%;
+    width: 20%;
     text-decoration: none;
     background: radial-gradient(circle, rgba(245, 153, 193, 1) 0%, rgba(162, 197, 237, 1) 100%);
     padding: 15px;
@@ -266,7 +265,7 @@ main {
 
 }
 .button-agency:hover {
-    color: var(--black);
+    box-shadow: 10px 10px 10px rgb(172, 170, 170); 
     transition: all 1s ease;
 }
 
