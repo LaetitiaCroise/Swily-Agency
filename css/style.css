@@ -174,10 +174,7 @@ main {
     padding: 20px;
     justify-content: center;
 }
-.btn-1{
-    text-decoration: none;
-    color: #FFFFFF;
-}
+
 .button-expertises {
     text-decoration: none;
     background: radial-gradient(circle, rgba(245, 153, 193, 1) 0%, rgba(162, 197, 237, 1) 100%);
@@ -190,7 +187,6 @@ main {
     font-family: var(--font);
     margin-left: 20px;
     margin-top: 20px;
-    border:none;
     
 }
 
@@ -229,7 +225,7 @@ main {
 
 }
 
-.button-secteurs-btn{
+.button-secteurs {
     border: 3px solid var(--white);
     border-radius: 25px;
     display: flex;
@@ -240,7 +236,7 @@ main {
     margin: 20px 0;
     text-decoration: none;
     font-family: var(--font);
-color: #000;
+    color: var(--white);
     font-size: 17px;
 
 
